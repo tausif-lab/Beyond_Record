@@ -71,14 +71,8 @@ A centralized digital platform that offers a **web and mobile-based Smart Studen
 
 ## 📚 Research and References
 
-### 📎 [Detail Proposal](#)
-### 📎 [Research and Reference Document](#)
-### 📎 [Case Studies](#)
 - LMS platforms for unified delivery & tracking
 - Integrated ERP systems in education institutions
-
-### 📎 [GitHub Repository](#)
-
 ---
 
 ## 💡 Tech Stack
