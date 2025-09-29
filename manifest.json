@@ -1,0 +1,51 @@
+{
+  "name": "Computer Wire Connection Game",
+  "short_name": "WireGame",
+  "start_url": "/level.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
+  "description": "A fun and challenging game where you connect wires to complete circuits.",
+  "categories": ["games", "education"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+   "shortcuts": [
+    {
+      "name": "New Game",
+      "short_name": "New Game",
+      "description": "Start a new wire connection game",
+      "url": "/",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots":[
+    {
+      "src":"icons/screenshot.png",
+      "sizes":"1280x720",
+      "type":"image/png",
+      "form_factor":"wide"
+    },
+
+    {
+      "src":"icons/screenshot.png",
+      "sizes":"750x1334",
+      "type":"image/png",
+      "form_factor":"narrow"
+    }
+  ],
+  "id": "/level.html"
+
+}
