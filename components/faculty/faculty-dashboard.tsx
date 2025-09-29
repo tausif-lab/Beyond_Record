@@ -19,15 +19,12 @@ import {
   Bell,
   Settings,
   LogOut,
-  Eye,
   Download,
   Loader2,
   RefreshCw,
 } from "lucide-react"
 import { authService } from "@/lib/auth"
 import { useRouter } from "next/navigation"
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from "recharts"
-import { AchievementVerification } from "./achievement-verification"
 import { toast } from "react-hot-toast"
 
 // Types for real data
@@ -65,11 +62,8 @@ const defaultFacultyProfile = {
   courses: ["Course Management"],
 }
 
-const COLORS = ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6"]
-
 export function FacultyDashboard() {
-  const [user, setUser] = useState(authService.getCurrentUser())
-  const [selectedApproval, setSelectedApproval] = useState<string | null>(null)
+  const [user] = useState(authService.getCurrentUser())
   const [facultyData, setFacultyData] = useState<FacultyData | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
