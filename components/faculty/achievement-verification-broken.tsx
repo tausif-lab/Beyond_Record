@@ -41,7 +41,7 @@ export function AchievementVerification()
 {
     const [achievements, setAchievements] = useState<PendingAchievement[]>([])
     const [loading, setLoading] = useState(true)
-    const [activeTab, setActiveTab] = useState("pending")
+    const [activeTab] = useState("pending")
     const [selectedAchievement, setSelectedAchievement] = useState<PendingAchievement | null>(null)
     const [reviewComments, setReviewComments] = useState("")
     const [reviewing, setReviewing] = useState(false)
