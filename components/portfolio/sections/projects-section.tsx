@@ -21,7 +21,7 @@ interface ProjectsSectionProps {
   onChange: (data: Project[]) => void
 }
 
-export function ProjectsSection({ data, onChange }: ProjectsSectionProps) {
+export function ProjectsSection({ data: _data, onChange: _onChange }: ProjectsSectionProps) {
   return (
     <Card>
       <CardHeader>

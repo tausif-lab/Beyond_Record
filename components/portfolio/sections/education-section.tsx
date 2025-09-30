@@ -24,7 +24,6 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog"
 
 interface Education {
@@ -114,8 +113,8 @@ export function EducationSection({ data, onChange }: EducationSectionProps) {
       field: formData.field,
       startDate: formData.startDate,
       endDate: formData.endDate,
-      gpa: formData.gpa || undefined,
-      achievements: formData.achievements ? formData.achievements.split('\n').filter(a => a.trim()) : undefined
+      ...(formData.gpa && { gpa: formData.gpa }),
+      ...(formData.achievements && { achievements: formData.achievements.split('\n').filter(a => a.trim()) })
     }
 
     if (editingId) {

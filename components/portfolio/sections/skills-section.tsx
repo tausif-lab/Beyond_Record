@@ -15,7 +15,7 @@ interface SkillsSectionProps {
   onChange: (data: Skills) => void
 }
 
-export function SkillsSection({ data, onChange }: SkillsSectionProps) {
+export function SkillsSection({ data: _data, onChange: _onChange }: SkillsSectionProps) {
   return (
     <Card>
       <CardHeader>

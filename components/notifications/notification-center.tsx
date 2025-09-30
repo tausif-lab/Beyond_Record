@@ -32,7 +32,7 @@ export function NotificationCenter({ isOpen, onClose }: NotificationCenterProps)
 {
     const [notifications, setNotifications] = useState<Notification[]>([])
     const [unreadCount, setUnreadCount] = useState(0)
-    const [setLoading] = useState(false)
+    const [_loading, setLoading] = useState(false)
     const [user] = useState(authService.getCurrentUser())
 
     const fetchNotifications = async () =>

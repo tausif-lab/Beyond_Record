@@ -19,7 +19,7 @@ interface ExperienceSectionProps {
   onChange: (data: Experience[]) => void
 }
 
-export function ExperienceSection({ data, onChange }: ExperienceSectionProps) {
+export function ExperienceSection({ data: _data, onChange: _onChange }: ExperienceSectionProps) {
   return (
     <Card>
       <CardHeader>
