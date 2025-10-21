@@ -76,8 +76,8 @@ A centralized digital platform that offers a **web and mobile-based Smart Studen
 ---
 
 ## 💡 Tech Stack
-- **Frontend**: React.js / Flutter (Mobile)
-- **Backend**: Node.js / Express.js
+- **Frontend**: Next.js
+- **Backend**: Next.js
 - **Database**: MongoDB
 - **Blockchain**: For record verification
 - **Analytics**: Custom engine with reporting modules
