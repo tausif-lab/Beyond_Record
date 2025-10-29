@@ -95,13 +95,15 @@ A centralized digital platform that offers a **web and mobile-based Smart Studen
 
 ## 👨‍💻 Authors and Contributors
 - **Team: Clever Codex**
-- Members: [Replace with names if required]
+- Tausif Khan (Team Leader, Backend Developer)
+- Anisa Fatima(Frontend Developer, Designer)
+- Zakee Ahmad(Backend Developer)
 
 ---
 
 ## 📬 Contact
 For queries or collaborations, contact us at:  
-📧 email@example.com  
+📧 tautumhare@example.com  
 🌐 [Website or LinkedIn]
 
 ---
